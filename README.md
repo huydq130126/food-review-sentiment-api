@@ -178,4 +178,8 @@ food-review-sentiment-api/
 
 ## 9. Video Demo
 
-> 🎥 [Link video demo](<THÊM_LINK_VIDEO_VÀO_ĐÂY>)
+> 🎥 [Link video demo](
+
+https://github.com/user-attachments/assets/c7322a17-28e0-4572-9d77-e6e3eaf8ea88
+
+)
