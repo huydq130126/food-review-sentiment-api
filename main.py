@@ -23,7 +23,7 @@ class ErrorInfo(BaseModel):
     code: str
     message: str
 
-class ApiRespone(BaseModel):
+class ApiResponse(BaseModel):
     success: bool
     data: Optional[Any] = None
     error: Optional[ErrorInfo] = None
@@ -65,6 +65,3 @@ async def predict(request: ReviewRequest):
         raise HTTPException(status_code = 500, detail = str(e))
     
 
-@app.get("/classify")
-async def classify(message: str):
-    return {"emotion": classifier(message)}
